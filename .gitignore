@@ -1,0 +1,6 @@
+*.yaml
+*.log
+nohup.out
+botcmd
+.vscode
+certs

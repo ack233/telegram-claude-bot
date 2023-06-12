@@ -1,0 +1,43 @@
+#日志位置,默认当前目录下bot.log
+logfile: "bot.log"
+
+#日志级别
+loglevel: "debug"
+
+#数据库
+database: host=127.0.0.1 user=dbuser password=dbpassword dbname=yourdbname port=5432 sslmode=disable
+
+#bot token
+botconfig:
+  
+  botToken: 你的机器人token
+  webhookUrl: 机器人回调地址webhookUrl:端口
+  listenAddr: 本地监听地址:端口
+  certFile: 证书绝对路径pem
+  caFile: 证书绝对路径key
+  #忽略给定时间前的消息,单位分钟,0则不忽略
+  ignoreMsgTime: 3
+  #最大并发处理群消息协程数
+  maxConcurrentChats: 10
+
+
+#claude
+claudeconfig:
+  api: claude的调用地址
+  token: claude的调用地址token
+  channelID: claudeu所在的频道id
+  #历史上下文最大限制
+  maxConversationids: 80
+
+
+#检测敏感词汇,支持正则
+forbiddenWord:
+#涉及政治相关词汇
+  politics: 
+  - '政治'
+  attack:
+  - 'fuck|cnm|nmd|((呢|泥|你|尼|n|倪)*(他|它|t|特|她|踏)+|(呢|泥|你|尼|n|倪))(玛|妈|马|🐎)'
+  - '(s(ha)*|撒|痧|鲨|砂|啥|煞|沙|傻|妈|玛|马|🐎|蠢|笨)(卵|逼|b|比|笔|币|必|壁|碧|匕)'
+  - '(玛|妈|马|🐎|嘛|吗)(g|狗|🐶|格|哥|歌|阁|葛|戈|ge|个|各)*(逼|b|比|笔|币|必|壁|碧|匕)'
+  - '智障|脑瘫|(弱|r|睿)智'
+

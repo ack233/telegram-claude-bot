@@ -27,7 +27,7 @@ https://github.com/ack233/telegram-claude-bot/assets/136236457/96918706-7902-4cb
 
 <br>
 
-##  加telegramn claude 群体验
+##  加telegram claude 群体验
 https://t.me/claude00000
 
 

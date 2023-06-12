@@ -20,6 +20,17 @@
 go run main.go
 ```
 
+<br>
+
+##  问答效果
+https://github.com/ack233/telegram-claude-bot/assets/136236457/96918706-7902-4cb8-ac9d-48272edf4898
+
+<br>
+
+##  加telegramn claude 群体验
+https://t.me/claude00000
+
+
 
 <br>
 <br>
